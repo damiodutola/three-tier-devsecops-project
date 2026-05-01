@@ -15,6 +15,7 @@ terraform {
     
     # Ensures the state file is encrypted at rest in the S3 bucket.
     encrypt        = true
+    use_lockfile = true
   }
 
   # Specifies the minimum Terraform version required for this configuration.
